@@ -1,6 +1,11 @@
-feat: implement basic product/stock modules (Room entities, DAO, UI activities and adapters)
+---
+update: Added clients, sales and dashboard modules for Quinc-Eye
 
-- Room database and Product entity/DAO
-- Product list and detail UI with RecyclerView
-- ViewModel and adapter
-- Dependencies updated (Room, lifecycle, recyclerview)
+What to test next:
+- Open project in Android Studio
+- Run app on emulator/device
+- From main screen: add products, add clients, create a sale (use product ID shown in product list)
+
+Notes:
+- Sales insertion updates product stock inside a Room transaction
+- This is a minimal MVP for testing; further UX improvements and validations recommended

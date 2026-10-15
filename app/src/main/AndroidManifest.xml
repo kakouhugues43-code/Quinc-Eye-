@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuincEye">
+        <activity android:name=".ui.DashboardActivity" />
+        <activity android:name=".ui.SaleActivity" />
+        <activity android:name=".ui.ClientDetailActivity" />
+        <activity android:name=".ui.clients.ClientListActivity" />
         <activity android:name=".ui.ProductDetailActivity" />
-        <activity android:name=".ui.ProductListActivity">
+        <activity android:name=".ui.ProductListActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
