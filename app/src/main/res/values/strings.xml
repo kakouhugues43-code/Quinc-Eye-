@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Quinc-Eye</string>
-    <string name="products">Produits</string>
-    <string name="clients">Clients</string>
-    <string name="sales">Ventes</string>
-    <string name="dashboard">Tableau de bord</string>
-</resources>
