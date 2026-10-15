@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client" />
+
+        <Spinner
+            android:id="@+id/spinner_client"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_product_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID produit (voir liste produits)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_add_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter l'article"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_save_sale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enregistrer la vente"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
